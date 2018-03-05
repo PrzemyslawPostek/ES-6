@@ -34,9 +34,6 @@ class Programmer extends Man {
         this.programmingLanguage();
         super.display('adam', 'kowal', '', '', '', '');
     }
-    eat(){
-        super.eat();
-    }
 }
 
 let junior = new Programmer();
